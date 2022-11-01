@@ -1,0 +1,27 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.home-content-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6px;
+}
+.heading {
+  font-size: 46px;
+  color: #b838ba;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+}
+
+.desc {
+  font-size: 25px;
+  color: #3a313b;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+}
